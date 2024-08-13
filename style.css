@@ -130,7 +130,7 @@ span{
     margin-left: 30px;
 }
 .panel-ops{
-    width: 80%;
+    width: 85%;
     font-size: 0.85rem;
 }
 
@@ -174,7 +174,7 @@ color: #007185;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #4b1fb1;
+    background-color: #13706c;
 }
 
 .box{
@@ -205,6 +205,28 @@ color: #007185;
 footer{
     margin-top: 15px;
 }
+.sign-in{
+    height: 150px;
+    text-align: center;
+    color: #0f1111;
+    border-top: 2px solid #343b3954;
+    border-bottom: 2px solid #343b3954;
+    margin-bottom: 20px;
+    color: black;
+}
+.signin p{
+    color: #000000;
+    font-size: 13px;
+    /* display:flexbox; */
+    margin: 5px;
+}
+.signin button{
+    width: 230px;
+    height: 28px;
+    border-radius: 5px;
+    background-color:#eec43c;
+    border-color: #e08b1c;
+}
 .foot-panel1{
     background-color: #37475a;
     color: white;
@@ -217,18 +239,18 @@ footer{
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
 }
 ul{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 ul a{
     display: block;
     font-size: 0.85rem;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #dddddd;
 }
 .foot-panel3{
@@ -242,18 +264,26 @@ ul a{
 .logo{
     background-image: url("amazon_logo.png");
     height: 50px;
-    width: 100px
+    width: 130px;
     
 }
 .foot-panel4{
     background-color: #0f1111;
     color: #dddddd;
     height: 76px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
 }
 .pages{
     font-size: 0.80rem;
     text-align: center;
     padding-top: 25px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 650px;
+    padding-right: 650px;
+    
 }
 .copyright{
     font-size: 0.80rem;
